@@ -33,6 +33,13 @@
       <li><a href="pages/nosotras.html">Nosotras</a></li>
       <li><a href="pages/productos.html">Productos</a></li>
       <li><a href="pages/descuentos.html">Descuentos</a></li>
+      <li>
+  <a href="#carrito" class="cart-icon-link">
+    <img src="images/1170678.png" alt="Carrito de compras" class="cart-icon" />
+  </a>
+</li>
+
+      
     </ul>
   </nav>
   
@@ -41,6 +48,7 @@
 
 <main id="main">
 
+ <!--- EJE #2 = BODY-->
 
   <!-- GRID DE IMÁGENES -->
   <section class="gallery">
@@ -114,12 +122,42 @@
       <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
     </a>
   </div>
+
+<section id="carrito" class="carrito-formulario">
+  <input type="checkbox" id="toggle-carrito" style="display: none;" />
+  <div class="formulario-contenido">
+    <h2>Realiza tu pedido</h2>
+    <p>Completa los siguientes datos para procesar tu compra:</p>
+    <form action="mailto:lituhe.bisuteria@gmail.com" method="POST" enctype="text/plain">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre" required>
+
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" name="telefono" id="telefono" required>
+
+      <label for="direccion">Dirección:</label>
+      <input type="text" name="direccion" id="direccion" required>
+
+      <label for="ciudad">Ciudad:</label>
+      <input type="text" name="ciudad" id="ciudad" required>
+
+      <h3>Productos de tu pedido:</h3>
+      <fieldset class="productos-grid">
+        <label><input type="checkbox" name="producto" value="Collar 1"> Collar 1</label>
+        <label><input type="checkbox" name="producto" value="Aretes 1"> Aretes 1</label>
+        <label><input type="checkbox" name="producto" value="Pulsera 1"> Pulsera 1</label>
+        <label><input type="checkbox" name="producto" value="Descuento 1"> Descuento 1</label>
+        <!-- Agrega más según tu catálogo -->
+      </fieldset>
+
+      <button type="submit">Enviar pedido</button>
+    </form>
+  </div>
+</section>
+
+
+
 </footer>
 
 
 
-  </footer>
-
-</body>
-
-</html>

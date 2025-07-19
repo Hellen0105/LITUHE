@@ -1,34 +1,111 @@
 <!DOCTYPE html>
+
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Colecciones | LITUHÉ</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="../css/style.css" />
 </head>
-<body>
 
-  <!-- HEADER -->
-   
-  <header class="navbar">
-    <a href="index.html" class="logo-title">
-      <img src="images/logo.png" alt="Logo LITUHÉ" class="logo">
-      <span class="title">LITUHÉ</span>
-    </a>
-    <nav class="nav-links">
-      <a href="colecciones.html">Colecciones</a>
-      <a href="nosotras.html">Nosotras</a>
-      <a href="productos.html">Productos</a>
-      <a href="descuentos.html">Descuentos</a>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="../index.html" class="logo">
+        <img src="../images/logoPeque.png" alt="Logo LITUHÉ" />
+        <span>LITUHÉ</span>
+      </a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+      <ul class="nav-links">
+        <li><a href="colecciones.html" class="active">Colecciones</a></li>
+        <li><a href="nosotras.html">Nosotras</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="descuentos.html">Descuentos</a></li>
+        <a href="../index.html#carrito" class="cart-icon-link">
+  <img src="../images/1170678.png" alt="Carrito de compras" class="cart-icon" />
+</a>
+
+        
+  </a>
+      </ul>
     </nav>
   </header>
 
-  <!-- CONTENIDO PRINCIPAL -->
   <main>
-    <h1>Nuestras Colecciones</h1>
-    <p>Aquí irá el contenido de la página Colecciones.</p>
-    <!-- Más contenido aquí -->
+    <section class="about-section">
+      <div class="about-text">
+        <h2>Nuestras Colecciones</h2>
+        <p>Cada colección de LITUHÉ es una celebración de la elegancia atemporal y la expresión personal. Desde joyas minimalistas hasta piezas con piedras vibrantes, nuestras colecciones están pensadas para adaptarse a cada estilo, cada historia, cada brillo único.</p>
+        <p>Descubre nuestras líneas exclusivas inspiradas en la naturaleza, la tradición artesanal y el alma femenina.</p>
+      </div>
+      <div class="about-image-wrapper">
+        <img src="../images/colecciones1.jpg" alt="Colección destacada" class="about-image" />
+      </div>
+    </section>
+
+    <hr class="divider" />
+
   </main>
 
+<main class="collections-page">
+
+  <!-- COLECCIÓN JORDÁN -->
+  <section class="collection">
+    <h2>Colección Jordan</h2>
+    <p>La Colección Jordán es el equilibrio perfecto entre delicadeza y carácter. Compuesta por una gargantilla de 18 pulgadas y un collar de piedras de 22 pulgadas, aretes y pulsera, esta colección ofrece múltiples formas de uso. Su diseño permite llevar ambas piezas juntas para un look sofisticado o usarlas por separado para adaptarse a cualquier ocasión. La gargantilla es sencilla, delicada y exquisita, mientras que el collar aporta un toque de elegancia sin ser demasiado formal. Además, sus complementos en chapa de oro de 18 quilates o en plata de Ley 925 le añaden un brillo sutil y refinado. Jordán es la colección ideal para quienes aman la versatilidad sin perder el estilo. </p>
+    <div class="collection-gallery">
+      <img src="../images/jordan1.jpg" alt="Collar Jordan 1">
+      <img src="../images/jordan2.jpg" alt="Collar Jordan 2">
+      <img src="../images/jordan3.jpg" alt="Collar Jordan 3">
+    </div>
+  </section>
+
+  <!-- COLECCIÓN GRANADA -->
+  <section class="collection">
+    <h2>Colección Granada</h2>
+    <p>Cada pieza de la Colección Granada es una declaración de sofisticación y carácter. Con piedras de 6, 8 o 10 mm y una extensión de 22 pulgadas, estas joyas se combinan con el brillo de la chapa de oro de 18 quilates o la pureza de la plata de Ley 925, creando armonía entre lujo y esencia natural. Diseñada para mujeres seguras, sofisticadas y con un gusto impecable, esta colección ofrece un conjunto completo que resaltará tu belleza: cada pieza es más que un accesorio, es una declaración de poder, confianza y elegancia.</p>
+    <div class="collection-gallery">
+      <img src="../images/granada1.jpg" alt="Collar Granada 1">
+      <img src="../images/granada2.jpg" alt="Collar Granada 2">
+      <img src="../images/granada3.jpg" alt="Collar Granada 3">
+    </div>
+  </section>
+
+  <!-- COLECCIÓN RUMBA -->
+  <section class="collection">
+    <h2>Colección Rumba</h2>
+    <p>La Colección Rumba es una explosión de alegría y delicadeza. Creada para quienes aman lo colorido y lo casual sin perder el estilo, esta colección combina pequeñas chaquiras de vidrio con el brillo de la chapa de oro de 18 quilates. Cada juego incluye una gargantilla rígida de 15 pulgadas, una cadena en chapa de oro de 18 quilates, pulsera y aretes. Con tonos vibrantes, Rumba es perfecta para aquellas mujeres que buscan lucir frescas, cómodas y llenas de energía para seguir brillando..</p>
+    <div class="collection-gallery">
+      <img src="../images/rumba1.jpg" alt="Collar Rumba 1">
+      <img src="../images/rumba2.jpg" alt="Collar Rumba 2">
+      <img src="../images/rumba3.jpg" alt="Collar Rumba 3">
+    </div>
+  </section>
+
+</main>
+
+
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>© 2025 LITUHÉ Joyería Fina. Todos los derechos reservados.</p>
+    </div>
+    <div class="footer-icons">
+      <a href="https://www.instagram.com/lituhe.joyas?igsh=MXJmMmQ2NmJ1bm1qNw==" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" />
+      </a>
+      <a href="https://www.facebook.com/share/15uCDMQZmr/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" />
+      </a>
+      <a href="https://wa.me/573178901351" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" />
+      </a>
+    </div>
+  </footer>
 </body>
+
 </html>

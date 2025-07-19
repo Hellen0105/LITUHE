@@ -1,24 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="../css/style.css">
-    
-    <title>Descuentos</title>
-
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Descuentos | LITUHÉ</title>
+  <link rel="stylesheet" href="../css/style.css" />
 </head>
+
 <body>
-<ul class= "lista-horizontal">
+  <header>
+    <nav class="navbar">
+      <a href="../index.html" class="logo">
+        <img src="../images/logoPeque.png" alt="Logo LITUHÉ" />
+        <span>LITUHÉ</span>
+      </a>
 
-    <li><a href="../Index.html">Inicio</a></li>
-    <li><a href="colecciones.html">Colecciones</a></li>
-    <li><a href="nosotras.html">Nosotras</a></li>
-    <li><a href="productos.html">Productos</a></li>
-    <li><a href="#.html">Descuentos</a></li>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
 
-    <h1>Descuentos</h1>
+      <ul class="nav-links">
+        <li><a href="colecciones.html">Colecciones</a></li>
+        <li><a href="nosotras.html">Nosotras</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="descuentos.html" class="active">Descuentos</a></li>
+        <a href="../index.html#carrito" class="cart-icon-link">
+  <img src="../images/1170678.png" alt="Carrito de compras" class="cart-icon" />
+</a>
+
+      </ul>
+    </nav>
+
+    
+  </header>
+
+  <main class="discounts-page">
+    <section class="discounts-intro">
+      <h2>Ofertas Especiales</h2>
+      <p>Disfruta de nuestras joyas seleccionadas con descuentos exclusivos por tiempo limitado. Encuentra la pieza perfecta para ti o para regalar, con toda la calidad y elegancia de LITUHÉ.</p>
+    </section>
+
+    <section class="discounts-gallery">
+
+      <!-- Producto 1 -->
+      <div class="discount-item">
+        <img src="../images/descuentos1.jpg" alt="Producto con 20% de descuento">
+        <div class="discount-label">20% OFF</div>
+        <p class="product-name">Verano</p>
+        <p class="price"><span class="old-price">$120.000</span> $96.000</p>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="discount-item">
+        <img src="../images/descuentos2.jpg" alt="Producto con 15% de descuento">
+        <div class="discount-label">15% OFF</div>
+        <p class="product-name">Brisa</p>
+        <p class="price"><span class="old-price">$80.000</span> $68.000</p>
+      </div>
+
+      <!-- Producto 3 -->
+      <div class="discount-item">
+        <img src="../images/descuentos3.jpg" alt="Producto con 20% de descuento">
+        <div class="discount-label">20% OFF</div>
+        <p class="product-name">Luz</p>
+        <p class="price"><span class="old-price">$70.000</span> $56.000</p>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>© 2025 LITUHÉ Joyería Fina. Todos los derechos reservados.</p>
+    </div>
+    <div class="footer-icons">
+      <a href="https://www.instagram.com/lituhe.joyas?igsh=MXJmMmQ2NmJ1bm1qNw==" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" />
+      </a>
+      <a href="https://www.facebook.com/share/15uCDMQZmr/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" />
+      </a>
+      <a href="https://wa.me/573178901351" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" />
+      </a>
+    </div>
+  </footer>
 </body>
+
 </html>

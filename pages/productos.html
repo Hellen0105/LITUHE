@@ -1,24 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="../css/style.css">
-    
-    <title>Productos</title>
-
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Productos | LITUHÉ</title>
+  <link rel="stylesheet" href="../css/style.css" />
 </head>
+
 <body>
-<ul class="lista-horizontal"> 
+  <header>
+    <nav class="navbar">
+      <a href="../index.html" class="logo">
+        <img src="../images/logoPeque.png" alt="Logo LITUHÉ" />
+        <span>LITUHÉ</span>
+      </a>
 
-    <li><a href="../Index.html">Inicio</a></li>
-    <li><a href="colecciones.html">Colecciones</a></li>
-    <li><a href="nosotras.html">Nosotras</a></li>
-    <li><a href="#">Productos</a></li>
-    <li><a href="descuentos.html">Descuentos</a></li>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
 
-    <h1>Productos</h1>
+      <ul class="nav-links">
+        <li><a href="colecciones.html">Colecciones</a></li>
+        <li><a href="nosotras.html">Nosotras</a></li>
+        <li><a href="productos.html" class="active">Productos</a></li>
+        <li><a href="descuentos.html">Descuentos</a></li>
+        <a href="../index.html#carrito" class="cart-icon-link">
+  <img src="../images/1170678.png" alt="Carrito de compras" class="cart-icon" />
+</a>
+
+      </ul>
+    </nav>
+
+    
+  </header>
+
+  <main class="collections-page">
+
+    <section class="collection">
+      <h2>Explora Nuestros Productos</h2>
+      <p>Selecciona entre collares, aretes y pulseras. Cada pieza está hecha a mano con amor, dedicación y materiales de alta calidad.</p>
+
+      <div class="product-grid">
+        <img src="../images/productocollar1.jpg" alt="Collar 1">
+        <img src="../images/productocollar2.jpg" alt="Collar 2">
+        <img src="../images/productoaretes1.jpg" alt="Aretes 1">
+        <img src="../images/productoaretes2.jpg" alt="Aretes 2">
+        <img src="../images/productopulsera1.jpg" alt="Pulsera 1">
+        <img src="../images/productopulsera2.jpg" alt="Pulsera 2">
+      </div>
+    </section>
+
+    <!-- COLLARES -->
+    <section class="horizontal-section">
+      <div class="text-side">
+        <h2>Collares LITUHÉ</h2>
+        <p>Nuestros collares combinan piedras naturales, chaquiras, y metales nobles para ofrecer piezas únicas que realzan cualquier look. Ideales para regalar o consentirte.</p>
+      </div>
+      <div class="image-side">
+        <img src="../images/productocollar1.jpg" alt="Collares LITUHÉ">
+      </div>
+    </section>
+
+    <!-- ARETES -->
+    <section class="horizontal-section reverse">
+      <div class="image-side">
+        <img src="../images/productoaretes1.jpg" alt="Aretes LITUHÉ">
+      </div>
+      <div class="text-side">
+        <h2>Aretes LITUHÉ</h2>
+        <p>Desde estilos minimalistas hasta diseños vibrantes, nuestros aretes están diseñados para acompañarte con elegancia en cada momento del día.</p>
+      </div>
+    </section>
+
+    <!-- PULSERAS -->
+    <section class="horizontal-section">
+      <div class="text-side">
+        <h2>Pulseras LITUHÉ</h2>
+        <p>Las pulseras LITUHÉ mezclan tradición y modernidad. Cada una cuenta su propia historia, tejida con colores, texturas y emociones.</p>
+      </div>
+      <div class="image-side">
+        <img src="../images/productopulsera1.jpg" alt="Pulseras LITUHÉ">
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>© 2025 LITUHÉ Joyería Fina. Todos los derechos reservados.</p>
+    </div>
+    <div class="footer-icons">
+      <a href="https://www.instagram.com/lituhe.joyas" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" />
+      </a>
+      <a href="https://www.facebook.com/share/15uCDMQZmr/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" />
+      </a>
+      <a href="https://wa.me/573178901351" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" />
+      </a>
+    </div>
+  </footer>
 </body>
+
 </html>
+
+
